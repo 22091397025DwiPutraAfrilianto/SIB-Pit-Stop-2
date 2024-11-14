@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dongeng Anak</title>
+    <link rel="stylesheet" href="dongenanak.css">
+</head>
+<body>
+   
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" class="logo-image">
+            <span class="logo-text">Daweya</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pembelajaran</a></li>
+                <li><a href="#">Dongeng</a></li>
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Kuis</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Dongeng Anak</h1>
+        <div class="recommendation-cards">
+            <div class="card" onclick="openStory('bawang-merah-bawang-putih.html')">
+                <img src="bawang-merah-bawang-putih.jpg" alt="Bawang Merah dan Bawang Putih">
+                <p>Bawang Merah dan Bawang Putih</p>
+            </div>
+            <div class="card" onclick="openStory('timun-mas-dan-raksasa.html')">
+                <img src="timun-mas-dan-raksasa.jpg" alt="Timun Mas dan Raksasa">
+                <p>Timun Mas dan Raksasa</p>
+            </div>
+            <div class="card" onclick="openStory('dongeng-sangkuriang.html')">
+                <img src="dongeng-sangkuriang.jpg" alt="Dongeng Sangkuriang">
+                <p>Dongeng Sangkuriang</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="dongeng.js"></script>
+</body>
+</html>

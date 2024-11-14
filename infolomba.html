@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Lomba</title>
+  <link rel="stylesheet" href="infolomba.css">
+</head>
+<body>
+  <div class="registration-container">
+    <h1>Pendaftaran Lomba</h1>
+    <div class="form-content">
+      <div class="poster">
+        <img class="tak" src="asset/logolomba.png" />
+      </div>
+      <div class="form">
+        <form id="registrationForm">
+          <label for="nama">Nama Peserta</label>
+          <input type="text" id="nama" placeholder="Tulis Disini" required>
+
+          <label for="ttl">Tempat Tanggal Lahir</label>
+          <input type="text" id="ttl" placeholder="Tulis Disini" required>
+
+          <label for="asal">Asal Sekolah</label>
+          <input type="text" id="asal" placeholder="Tulis Disini" required>
+
+          <label for="alamat">Alamat</label>
+          <input type="text" id="alamat" placeholder="Tulis Disini" required>
+
+          <label for="nomor">Nomor</label>
+          <input type="text" id="nomor" placeholder="Tulis Disini" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Tulis Disini" required>
+
+          <label for="jenis">Jenis Lomba</label>
+          <input type="text" id="jenis" placeholder="Tulis Disini" required>
+
+          <label for="foto">Upload Pasfoto 4x6 *</label>
+          <div class="upload-container">
+            <input type="file" id="foto" accept="image/*" required>
+            <span>Click here to upload or drop media here</span>
+          </div>
+
+          <button type="button" onclick="submitForm()">Selesaikan Pembayaran</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="infolomba.js"></script>
+</body>
+</html>

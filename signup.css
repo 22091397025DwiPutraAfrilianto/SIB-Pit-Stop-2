@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.signup-box {
+    display: flex;
+    background-color: #ffeb8c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form .logo img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 120px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffd966;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signup-form button:hover {
+    background-color: #ffcc33;
+}
+
+.signup-form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-form p a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+.signup-form p a:hover {
+    text-decoration: underline;
+}
+
+.welcome-message {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-message h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.welcome-message img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .signup-box {
+        flex-direction: column;
+    }
+
+    .signup-form, .welcome-message {
+        padding: 15px;
+    }
+}

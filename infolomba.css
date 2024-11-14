@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffebaf;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .registration-container {
+    background-color: #fff1b0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .poster img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .form {
+    flex: 1;
+  }
+  
+  .form label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .upload-container {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .upload-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ddd;
+    height: 100px;
+    cursor: pointer;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ffb200;
+  }
+  

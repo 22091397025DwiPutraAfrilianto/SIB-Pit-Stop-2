@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>kuis fantasi</h1>
+    <div id="question-container" class="question-container">
+      <p id="question">Question text</p>
+      <button class="answer" onclick="selectAnswer('A')">A</button>
+      <button class="answer" onclick="selectAnswer('B')">B</button>
+      <button class="answer" onclick="selectAnswer('C')">C</button>
+    </div>
+    <button id="next-btn" onclick="nextQuestion()">CONTINUE</button>
+    <p id="score-display" class="score-display">Score: 0/20</p>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>

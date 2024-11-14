@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.navbar {
+    background-color: #ffde59;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user span {
+    margin-right: 10px;
+}
+
+.profile-icon {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.event-section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-section p {
+    margin-bottom: 20px;
+}
+
+.event-details {
+    display: flex;
+    gap: 20px;
+}
+
+.details-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.details-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.details-box h3 {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555;
+}
+
+.details-box ul {
+    list-style-type: none;
+    padding-left: 10px;
+    line-height: 1.6;
+}
+
+.details-box ul li::before {
+    content: "• ";
+    color: #ff9800;
+}
+
+.details-box a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.details-box a:hover {
+    text-decoration: underline;
+}
+
+
+.poster img {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+/* Register Button */
+.register-button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-button:hover {
+    background-color: #e68900;
+}
